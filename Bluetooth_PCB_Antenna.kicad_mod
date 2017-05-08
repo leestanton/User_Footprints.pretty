@@ -1,0 +1,17 @@
+(module antenna_test2 (layer F.Cu) (tedit 576A7D00)
+  (fp_text reference Y* (at 1.23 -1.07) (layer F.SilkS) hide
+    (effects (font (thickness 0.3)))
+  )
+  (fp_text value "2.4GHz Antenna" (at 9.05 6.53) (layer F.SilkS) hide
+    (effects (font (thickness 0.3)))
+  )
+  (fp_poly (pts (xy 0 0) (xy 0 -5.4) (xy 5 -5.4) (xy 5 -2.86)
+    (xy 7 -2.86) (xy 7 -5.4) (xy 9.7 -5.4) (xy 9.7 -2.86)
+    (xy 11.7 -2.86) (xy 11.7 -5.4) (xy 14.4 -5.4) (xy 14.4 -0.96)
+    (xy 13.9 -0.96) (xy 13.9 -4.9) (xy 12.2 -4.9) (xy 12.2 -2.26)
+    (xy 9.2 -2.26) (xy 9.2 -4.9) (xy 7.5 -4.9) (xy 7.5 -2.26)
+    (xy 4.5 -2.26) (xy 4.5 -4.9) (xy 2.8 -4.9) (xy 2.8 0)
+    (xy 2.3 0) (xy 2.3 -4.9) (xy 0.9 -4.9) (xy 0.9 0)) (layer F.Cu) (width 0.01))
+  (pad 2 smd circle (at 0.45 -0.25) (size 0.2 0.2) (layers F.Cu F.Paste F.Mask))
+  (pad 1 smd circle (at 2.55 0) (size 0.2 0.2) (layers F.Cu F.Paste F.Mask))
+)
